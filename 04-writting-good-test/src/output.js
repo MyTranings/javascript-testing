@@ -3,7 +3,7 @@ export function generateResultText(calculationResult) {
 
   if (calculationResult === 'invalid') {
     result = 'Invalid input. You must enter valid numbers.';
-  } else if (result !== 'no-calc') {
+  } else if (calculationResult !== 'no-calc') {
     result = 'Result: ' + calculationResult;
   }
 
